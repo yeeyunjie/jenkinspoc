@@ -3,5 +3,5 @@
 def call(){
     echo "Current working directory - ${WORKSPACE}"
     echo "Cleaning ${WORKSPACE}"
-    rm -rf ${WORKSPACE}/*
+    sh "rm -rf ${WORKSPACE}/*"
 }
